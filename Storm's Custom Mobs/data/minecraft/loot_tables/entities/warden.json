@@ -1,0 +1,85 @@
+{
+    "type": "minecraft:entity",
+    "values": [],
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "echo_shard"
+                }
+            ]
+        },
+
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "blaze_powder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 2,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "type": "uniform",
+                                "min": 0,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:6160001,display:{Name:'{\"text\":\"TP Powder\"}',Lore:['{\"text\":\"Magic Powder that will\"}','{\"text\":\"Teleport you back to a preset location\"}','{\"text\":\"\"}','{\"text\":\"----Drop to Use----\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "wooden_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage:58,display:{Name:'{\"text\":\"Bonk\"}',Lore:['{\"text\":\"A fitting reward for\"}','{\"text\":\"such a difficult kill\"}']}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

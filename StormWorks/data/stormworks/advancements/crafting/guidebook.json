@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stormworks:guidebook"
+            }
+        },
+        "unlocked_alt":{
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe":"stormworks:guidebook_alt"
+            }
+        }
+    },
+    "requirements": [
+        ["unlocked","unlocked_alt"]
+    ],
+    "rewards": {
+        "function": "stormworks:crafting_functions/craft_guidebook"
+    }
+}

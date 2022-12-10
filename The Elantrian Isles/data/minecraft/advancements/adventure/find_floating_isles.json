@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {
+            "text": "How'd that get there?",
+            "color": "reset"
+        },
+        "description": {
+            "text": "Find floating islands",
+            "color": "reset"
+        },
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "found_isles":{
+            "trigger": "minecraft:location",
+            "conditions": {"player": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {"location": {"structure": "elantrian_isles:floating_isles"}}
+                }
+            ]}
+        }
+    },
+    "requirements": [
+        ["found_isles"]
+    ],
+    "rewards": {
+        "experience": 5
+    }
+}

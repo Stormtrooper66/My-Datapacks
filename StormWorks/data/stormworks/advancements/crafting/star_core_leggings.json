@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stormworks:star_core_leggings"
+            }
+        }
+    },
+    "rewards": {
+        "function": "stormworks:crafting_functions/star_core_set/craft_star_core_leggings"
+    }
+}

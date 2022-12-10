@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:adventure/kill_a_mob",
+    "display": {
+        "icon": {
+            "item": "minecraft:echo_shard"
+        },
+        "title": {
+            "text":"Sir. Finishing this Fight",
+            "color": "reset"
+        },
+        "description": {
+            "text": "Kill the Warden",
+            "color": "purple"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": false
+    },
+    "criteria": {
+        "warden_killed":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "warden"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["warden_killed"]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

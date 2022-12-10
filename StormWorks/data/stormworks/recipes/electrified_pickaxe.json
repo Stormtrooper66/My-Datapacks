@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern": [
+        "232",
+        "414",
+        " 1 "
+    ],
+    "key": {
+        "1":{"item": "minecraft:iron_block"},
+        "2":{"item": "minecraft:diamond_block"},
+        "3":{"item": "minecraft:redstone_block"},
+        "4":{"item": "minecraft:netherite_ingot"}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

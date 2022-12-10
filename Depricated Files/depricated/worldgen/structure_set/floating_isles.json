@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "stormworks:floating_isles",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 75,
+        "separation": 50,
+        "salt": 1143314961
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern": [
+        "121",
+        "343",
+        "3 3"
+    ],
+    "key": {
+        "1":{"item": "minecraft:leather"},
+        "2":{"item": "minecraft:netherite_ingot"},
+        "3":{"item": "minecraft:phantom_membrane"},
+        "4":{"item": "minecraft:ender_eye"}
+    },
+    "result": {
+        "item": "minecraft:elytra"
+    }
+}

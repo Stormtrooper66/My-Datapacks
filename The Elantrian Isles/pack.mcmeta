@@ -1,0 +1,6 @@
+{
+    "pack":{
+        "pack_format": 10,
+        "description": "A World-Generation Datapack that adds a set of Islands that will spawn in the overworld."
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "name": "elantrian_isles:island_generation",
+    "fallback": "minecraft:empty",
+    "elements": [
+
+      {
+        "weight": 13,
+        "element": {
+            "location": "elantrian_isles:large_islands/island_large_oak",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+            "location": "elantrian_isles:large_islands/island_large_birch",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+
+
+      {
+        "weight": 11,
+        "element": {
+            "location": "elantrian_isles:medium_islands/island_medium_oak",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+            "location": "elantrian_isles:medium_islands/island_medium_birch",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+            "location": "elantrian_isles:medium_islands/island_medium_spruce",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+            "location": "elantrian_isles:medium_islands/island_medium_pond",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+            "location": "elantrian_isles:medium_islands/island_medium_river",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+
+
+
+      {
+        "weight": 16,
+        "element": {
+            "location": "elantrian_isles:small_islands/island_small_oak",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 15,
+        "element": {
+            "location": "elantrian_isles:small_islands/island_small_birch",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+            "location": "elantrian_isles:small_islands/island_small_spruce",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 17,
+        "element": {
+            "location": "elantrian_isles:small_islands/island_small_pond",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+
+
+
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "weight": 7,
+        "element": {
+            "location": "elantrian_isles:spacers/spacer_half_0",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+            "location": "elantrian_isles:spacers/spacer_half_1",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+
+      {
+        "weight": 10,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_half_up_0",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_half_up_1",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_half_down_0",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_half_down_0_alt",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_half_down_1",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_half_down_1_alt",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "weight": 12,
+        "element": {
+            "location": "elantrian_isles:spacers/spacer_quarter_0",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+            "location": "elantrian_isles:spacers/spacer_quarter_1",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+
+      {
+        "weight": 15,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_quarter_up_0",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 11,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_quarter_up_1",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 15,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_quarter_down_0",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 15,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_quarter_down_0_alt",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 11,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_quarter_down_1",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 11,
+        "element": {
+            "location": "elantrian_isles:spacers/vertical_quarter_down_1_alt",
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty"
+        }
+      }
+
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern": [
+        " 2 ",
+        "212",
+        " 2 "
+    ],
+    "key": {
+        "1":{"item": "minecraft:sea_lantern"},
+        "2":{"item": "minecraft:redstone"}
+    },
+    "result": {
+        "item": "minecraft:redstone_lamp"
+    }
+}

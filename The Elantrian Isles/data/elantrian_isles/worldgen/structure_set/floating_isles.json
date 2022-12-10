@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "elantrian_isles:floating_isles",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 60,
+        "separation": 30,
+        "salt": 1143314961
+    }
+}

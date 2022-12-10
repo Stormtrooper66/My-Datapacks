@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "armor/star_core_set/star_core_helmet"
+    }
+  }

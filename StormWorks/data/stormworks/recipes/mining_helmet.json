@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern": [
+        "111",
+        "131",
+        "2 2"
+    ],
+    "key": {
+        "1":{"item": "minecraft:iron_ingot"},
+        "2":{"item": "minecraft:redstone_block"},
+        "3":{"item": "minecraft:redstone_lamp"}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

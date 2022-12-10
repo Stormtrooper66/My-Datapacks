@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:nether/netherite_armor",
+    "display": {
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{CustomModelData:6160007}"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Not OP",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Craft a full set of Star Core Armor",
+            "color":"purple"
+        }
+    },
+    "criteria": {
+        "full_set": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"items": ["netherite_helmet"],"nbt": "{CustomModelData:6160006}"},
+                    {"items": ["netherite_chestplate"],"nbt": "{CustomModelData:6160007}"},
+                    {"items": ["netherite_leggings"],"nbt": "{CustomModelData:6160008}"},
+                    {"items": ["netherite_boots"],"nbt": "{CustomModelData:6160009}"}
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["full_set"]
+    ],
+    "rewards":{
+        "experience":100
+    }
+}

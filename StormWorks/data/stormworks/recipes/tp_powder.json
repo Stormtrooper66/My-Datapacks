@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item" : "minecraft:ender_pearl"},
+        {"item":"minecraft:lapis_lazuli"},
+        {"item":"minecraft:redstone"}
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}
